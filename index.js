@@ -1,3 +1,4 @@
+//Web DOM API
 const render = () => {
   document.getElementById('mountNode').innerHTML = `
     <div>
@@ -7,6 +8,8 @@ const render = () => {
     </div>
   `;
 
+  
+  //React's API
   ReactDOM.render(
     React.createElement(
       'div',
